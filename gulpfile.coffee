@@ -27,4 +27,4 @@ gulp.task('build', ->
         .pipe(gulp.dest('./lib'))
 )
 
-gulp.task('default', ['lint', 'test', 'build'])
+gulp.task('default', ['lint', 'test'])

@@ -4,6 +4,8 @@ coffeescript, and python to create a tiny but awesome programming language. The
 standard library is more-or-less nonexistent and there are no plans for interop
 support, but still...
 
+> https://paper.dropbox.com/doc/turtlescript-U4XY86JZkgkBQmcCos7nm
+
 ## Tokenizer
 The lexer/tokenizer uses a FSM-based algorithm to transform a char array into a 
 stream of tokens. The state machine is implemented using if/else blocks and the
